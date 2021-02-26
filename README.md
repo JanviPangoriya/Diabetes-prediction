@@ -1,1 +1,2 @@
-# Diabetes-prediction-
+# Diabetes Prediction
+Mini Project
