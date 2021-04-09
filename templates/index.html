@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diabetes Prediction</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.form-control{
+			margin-right: 50px;
+			margin-left: 50px;
+		}
+	</style>
+</head>
+<body>
+		<nav class="navbar navbar-inverse" style="background-color: blue;">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#" style="color: white;margin-left: 50px;font-size: 20px;">Diabetes Prediction</a>
+		    </div>
+		 
+		    <ul class="nav navbar-nav navbar-right">
+		      <li style="color:white;margin-left: 50px;font-size: 20px;"><a href="#" style="color: white;">Home</a></li>
+		      
+		    </ul>
+		  </div>
+		</nav>
+
+		<section>
+			<h1 style="color: orange;font-family: 'Times-new-Roman',Arial;font-weight: bolder;font-size: 350%;text-align: center;margin-top: 3%;">Diabetes Prediction</h1>
+			<p style="font-family: 'Times-new-Roman',Arial;font-size: 150%;text-align: center;margin-top: 3.15%;">Predict the probability of having Diabetes !!!</p>
+
+			
+		  	<form class="form-inline" action="/action_page.php" style="text-align: center;">
+  				<div class="form-group">
+   						<label for="pg">Preganancies:</label>
+   						<br>
+    					<input type="number" class="form-control" id="pg" placeholder="no. of pregnancies">
+  				</div>
+  				<div class="form-group">
+    					<label for="glucose">Glucose:</label>
+    					<br>
+    					<input type="number" class="form-control" id="glucose" placeholder="glucose level">
+  				</div>
+  				<div class="form-group">
+   						<label for="bp">Blood Pressure:</label>
+   						<br>
+    					<input type="number" class="form-control" id="bp" placeholder="blood Pressure">
+  				</div>
+  				<br><br><br>
+  				<div class="form-group">
+   						<label for="st">Skin Thickness:</label>
+   						<br>
+    					<input type="number" class="form-control" id="st" placeholder="skin thickness">
+  				</div>
+  				<div class="form-group">
+    					<label for="insulin">Insulin:</label>
+    					<br>
+    					<input type="number" class="form-control" id="insulin" placeholder="insulin">
+  				</div>
+  				<div class="form-group">
+   						<label for="bmi">BMI:</label>
+   						<br>
+    					<input type="number" class="form-control" id="bmi" placeholder="BMI">
+  				</div>
+  				<br><br><br>
+  				<div class="form-group">
+    					<label for="dpf">DiabetesPedigreeFunction:</label>
+    					<br>
+    					<input type="number" class="form-control" id="dpf" placeholder="DiabetesPedigreeFunction">
+  				</div>
+  				<div class="form-group">
+   						<label for="age">Age:</label>
+   						<br>
+    					<input type="number" class="form-control" id="age" placeholder="Age">
+  				</div>
+  				<br><br><br>
+                <button type="submit" class="btn btn-default" style="background-color: orange;color: white;padding: 15px;">Predict Probability</button>
+            </form>
+		</section>
+</body>
+</html>
