@@ -24,10 +24,6 @@ def predict():
         prediction = model.predict_proba(pred_df)
         result='{0:.{1}f}'.format(prediction[0][1], 2)
         result = str(float(result)*100)+'%'
-        print(result)
-        if result>str(0.5):
-            return render_template('result.html',pred=f'You may have diabetes.\nProbability of having Diabetes is {result}')
-        else:
-            return render_template('result.html',pred=f'You are safe :)\n Probability of having diabetes is {result}')
+        return render_template('result.html',pred=f'Probability of having Diabetes is {result}')
 if __name__ == '__main__':
     app.run(debug=True,use_reloader = False)
