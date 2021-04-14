@@ -79,3 +79,6 @@ GLA University, Mathura
 ## Efforts By:
 Janvi Pangoriya <br>
 Nidhi Gupta 
+
+## Live Link of the Project
+<a href="https://diabetespredictionminiproject.herokuapp.com/"> Diabetes Prediciton </a>
